@@ -1,9 +1,5 @@
 <script setup lang="ts">
-
-const router = useRouter()
-const go = () => {
-  router.push('/foo')
-}
+import FloatProxy from '../components/FloatProxy.vue'
 </script>
 
 <template>
@@ -17,5 +13,6 @@ const go = () => {
         Go
       </router-link>
     </div>
+    <FloatProxy w-50 h-50 rounded-1 />
   </div>
 </template>
